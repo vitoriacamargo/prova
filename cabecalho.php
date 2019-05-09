@@ -33,7 +33,7 @@
         <a class="nav-link" href="Cliente.php">Cadastro Cliente</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="vendedore.php"> Cadastro Vendedores</a>
+        <a class="nav-link" href="vendedores.php"> Cadastro Vendedores</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="produtos.php">Produtos</a>
