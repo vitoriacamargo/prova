@@ -62,9 +62,6 @@
 		</div><!--fecha coluna principal-->
 	</div><!--fecha linha principal-->
 </div><!--fecha container-->
-<?php
-include("rodape.php")
-?>
 
 </body>
 </html> 

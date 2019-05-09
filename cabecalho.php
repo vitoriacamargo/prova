@@ -30,7 +30,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="Cliente.php">Cadastro Cliente</a>
+        <a class="nav-link" href="formCadastrarCliente.php">Cadastro Cliente</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="vendedores.php"> Cadastro Vendedores</a>

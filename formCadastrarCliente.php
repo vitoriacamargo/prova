@@ -14,7 +14,7 @@
 </div>
 	<div class="row">
 		<div class="col-sm-12">
-			<form action="controllerNoticia.php" method="post">
+			<form action="controllerCliente.php" method="post">
 			<div class="row">
 				<div class="col-sm-6">
 					<div class="form-group">
@@ -88,28 +88,11 @@
 				  </div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-6">
-			  		<div class="form-group"	>
-			   		 <label for="descricao">Descrição:</label>
-			    			<textarea class="form-control" id="descricao" name="descricao">
-			    </textarea>
-			  		</div>
-			</div>
-			<div class="col-sm-6">
-					<div class="form-group">
-			  		  <label for="dataPu">Date de Cadastro:</label>
-			 		   <input type="date" class="form-control" id="dataCadastro" name="name">
-				  </div>
-				</div>
 			  <button type="submit" class="btn btn-primary">CADASTRAR</button>
 			</form> 	
 		</div><!--fecha coluna principal-->
 	</div><!--fecha linha principal-->
 </div><!--fecha container-->
-<?php
-include("rodape.php")
-?>
 
 </body>
 </html> 

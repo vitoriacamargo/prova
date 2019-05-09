@@ -9,10 +9,9 @@
 		filter_input(INPUT_POST, "numero") &&
 		filter_input(INPUT_POST, "bairro") &&
 		filter_input(INPUT_POST, "cidade") &&
-		filter_input(INPUT_POST, "cep") &&
-		filter_input(INPUT_POST, "dataCadastro") &&
-	) {
-		$name= filter_input(INPUT_POST, "name");
+		filter_input(INPUT_POST, "cep") 
+		) {
+		$name= filter_input(INPUT_POST, "nome");
 		$telefone= filter_input(INPUT_POST, "telefone");
 		$celular = filter_input(INPUT_POST, "celular");
 		$email= filter_input(INPUT_POST, "email") ;
@@ -21,8 +20,7 @@
 		$bairro= filter_input(INPUT_POST, "bairro");
 		$cidade= filter_input(INPUT_POST, "cidade");
 		$cep= filter_input(INPUT_POST, "cep");
-		$dataCadastro = filter_input(INPUT_POST, "dataCadastro");
-		$dados=array($name, $telefone, $celular, $endereco, $numero, $bairro, $cidade, $cep, $dataCadastro);
+		$dados=array($name, $telefone, $celular, $email, $endereco, $numero, $bairro, $cidade, $cep);
 		$objetoNoticia->cadastrar($dados);
 	}else {
 		echo "Os campos não foram preenchidos!!!";	
